@@ -1,0 +1,110 @@
+b {
+    font-size: 3em;
+}
+body {
+    background: url("space.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: auto | smooth;
+    opacity: 1.0;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+hr .section-divider {
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 50%;   
+}
+
+html {
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 2.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+.contact-form {
+    content:center;
+    width:50%;
+}
+
+
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.aboutSection {
+
+}
+
+.section {
+    background-color: rgba(159, 162, 178, 0.55);
+    border: 2px solid rgba(159, 162, 178, 0.35);
+    border-radius: 1em;
+    text-align:center;
+}
+
+
+
+.viewport {
+  height: 100vh;
+  width:100%;
+
+}
+
+#contact_form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#content {
+    padding-top: 25%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#section-content-bio {
+    background-color: rgba(159, 162, 178, 0.55);
+    border: 1px solid rgba(159, 162, 178, 0.35);
+    border-radius: 1em;
+    font-stretch: .15em;
+    padding: 20px;
+}
+
+#success_message{ display: none;}
+
+
+
